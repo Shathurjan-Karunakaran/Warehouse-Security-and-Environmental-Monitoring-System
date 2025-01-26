@@ -53,7 +53,7 @@ ESP32-based Embedded Project
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo-name/esp32-warehouse-security
+   git clone https://github.com/UOJEmbeddedSystemProject/Warehouse-Security-and-Environmental-Monitoring-System.git
    ```
 
 2. Install required libraries:
