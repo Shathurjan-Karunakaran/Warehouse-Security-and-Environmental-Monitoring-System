@@ -126,8 +126,9 @@ Below are the circuit diagrams for both the slave and master circuits along with
 A simulation of the system setup has been performed to verify sensor readings and communication flows.
 
 <div align="center">
-![Slave 1](https://github.com/user-attachments/assets/5d07136e-f900-49b6-be91-c6589e6f5900)
-  
+
+![Slave 1](https://github.com/user-attachments/assets/1ad8cc4a-7acb-4438-9dcf-74f4de106fbc)
+
 ![Master 1](https://github.com/user-attachments/assets/57c7f10f-bec4-4ce4-a5b5-7c30c50d29e3)
 </div>
 
