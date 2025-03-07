@@ -169,12 +169,14 @@ Below is the project timeline represented as both a table and a flowchart.
 
 ```mermaid
 flowchart TD
+  A[Project Proposal (Week 4)] --> B[Hardware Setup (Weeks 5-6)]
+  B --> C[Mid-Evaluation Preparation (Week 7)]
+  C --> D[Mid-Evaluation (Week 9)]
+  D --> E[Full System Integration (Weeks 10-12)]
+  E --> F[Software Development (Weeks 13-15)]
+  F --> G[Testing & Refining (Weeks 14-15)]
+  G --> H[Final Evaluation Preparation (Week 14)]
+  H --> I[Final Evaluation (Week 15)]
+
   classDef timeline fill:#e0f7fa,stroke:#00796b,stroke-width:2px;
-  A[Project Proposal (Week 4)]:::timeline --> B[Hardware Setup (Weeks 5-6)]:::timeline
-  B --> C[Mid-Evaluation Preparation (Week 7)]:::timeline
-  C --> D[Mid-Evaluation (Week 9)]:::timeline
-  D --> E[Full System Integration (Weeks 10-12)]:::timeline
-  E --> F[Software Development (Weeks 13-15)]:::timeline
-  F --> G[Testing & Refining (Weeks 14-15)]:::timeline
-  G --> H[Final Evaluation Preparation (Week 14)]:::timeline
-  H --> I[Final Evaluation (Week 15)]:::timeline
+  class A,B,C,D,E,F,G,H,I timeline;
