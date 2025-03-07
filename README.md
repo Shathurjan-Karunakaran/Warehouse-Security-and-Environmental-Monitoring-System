@@ -1,4 +1,4 @@
-[Project Website](https://warehousesecuritymonitor.my.canva.site/)
+![Slave 1](https://github.com/user-attachments/assets/f55ad25d-986f-45c1-a9a1-64240df1b1a3)[Project Website](https://warehousesecuritymonitor.my.canva.site/)
 
 # Warehouse Security and Environmental Monitoring System 🚀
 
@@ -114,11 +114,13 @@ Our system combines environmental monitoring with access control and real-time d
 Below are the circuit diagrams for both the slave and master circuits along with the communication protocols used.
 
 <div align="center">
-<!-- Random image for Slave Circuit Diagram -->
-![Slave Circuit Diagram](https://via.placeholder.com/400x300?text=Slave+Circuit+Diagram)
 
-<!-- Random image for Master Circuit Diagram -->
-![Master Circuit Diagram](https://via.placeholder.com/400x300?text=Master+Circuit+Diagram)
+![s](https://github.com/user-attachments/assets/87889755-6e99-4d3f-b39e-10c78ce8977b)
+![Slave 1](https://github.com/user-attachments/assets/5d07136e-f900-49b6-be91-c6589e6f5900)
+
+![m](https://github.com/user-attachments/assets/8b2a2de1-3ee3-49c2-9db5-89e86515f6f0)
+
+![Master 1](https://github.com/user-attachments/assets/57c7f10f-bec4-4ce4-a5b5-7c30c50d29e3)
 </div>
 
 ## Simulation 🖥️
