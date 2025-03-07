@@ -116,11 +116,10 @@ Below are the circuit diagrams for both the slave and master circuits along with
 <div align="center">
 
 ![s](https://github.com/user-attachments/assets/87889755-6e99-4d3f-b39e-10c78ce8977b)
-![Slave 1](https://github.com/user-attachments/assets/5d07136e-f900-49b6-be91-c6589e6f5900)
+
 
 ![m](https://github.com/user-attachments/assets/8b2a2de1-3ee3-49c2-9db5-89e86515f6f0)
 
-![Master 1](https://github.com/user-attachments/assets/57c7f10f-bec4-4ce4-a5b5-7c30c50d29e3)
 </div>
 
 ## Simulation 🖥️
@@ -128,8 +127,9 @@ Below are the circuit diagrams for both the slave and master circuits along with
 A simulation of the system setup has been performed to verify sensor readings and communication flows.
 
 <div align="center">
-<!-- Random image for Simulation -->
-![Simulation](https://via.placeholder.com/400x300?text=Simulation)
+![Slave 1](https://github.com/user-attachments/assets/5d07136e-f900-49b6-be91-c6589e6f5900)
+  
+![Master 1](https://github.com/user-attachments/assets/57c7f10f-bec4-4ce4-a5b5-7c30c50d29e3)
 </div>
 
 ## Phase One of Execution 🏁
