@@ -1,132 +1,97 @@
+[Project Website](https://warehousesecuritymonitor.my.canva.site/)
+
 # Warehouse Security and Environmental Monitoring System 🚀
-
-## Project Website 🌐
-
-<div align="center">
-[**Visit the Project Website**](https://warehousesecuritymonitor.my.canva.site/)
-</div>
 
 ## Introduction 📘
 
-- **Integrated System:** Combines security & environmental monitoring using a master-slave ESP32 architecture.
-- **Multi-Sensor Tracking:** Monitors temperature, humidity, gas levels, and motion.
-- **Real-Time Alerts:** Provides immediate notifications via cloud connectivity.
-- **Scalable & Efficient:** Designed to improve warehouse safety and operational efficiency.
+The Warehouse Security and Environmental Monitoring System integrates security and environmental monitoring using a master-slave ESP32 architecture. It tracks temperature, humidity, gas levels, and motion while providing real-time alerts and cloud connectivity. This scalable IoT solution is designed to improve warehouse safety and operational efficiency.
 
 ## Objective 🎯
 
-- Prevent unauthorized access using motion and access sensors.
-- Monitor critical environmental parameters (temperature, humidity, gas, and smoke).
-- Deliver real-time alerts through alarms or remote notifications.
+- Prevent unauthorized access with motion and access sensors.
+- Monitor temperature, humidity, gas, and smoke levels.
+- Provide real-time alerts through alarms or remote notifications.
 - Enable remote monitoring via cloud integration.
-- Process sensor data efficiently using ESP32 architecture.
+- Ensure efficient data processing using ESP32 architecture.
 
 ## Problem Statement ⚠️
 
-- **High Risk Environment:** Warehouses store valuable goods and face environmental risks.
-- **Environmental Fluctuations:** Susceptible to changes in temperature, humidity, and air quality.
-- **Security Threats:** Risk of unauthorized access, gas leaks, and fire hazards.
-- **Inefficient Existing Systems:** Current solutions are often expensive, lack real-time monitoring, or require manual supervision.
+Warehouses are critical supply chain hubs that store valuable goods. However, they face risks from environmental fluctuations (temperature, humidity, air quality) and unauthorized access—leading to potential gas leaks, fire hazards, and other safety issues. Existing monitoring systems are often expensive, inefficient, or lack real-time, centralized monitoring. This makes manual supervision error-prone and costly. An affordable, reliable, and integrated solution is therefore essential.
 
 ## Solution 💡
 
-- **Combined Monitoring:** Integrates environmental sensing with access control.
-- **Master-Slave Architecture:** 
-  - **Slave Nodes:** Collect sensor data (temperature, humidity, gas, motion).
-  - **Master Node:** Processes data, manages RFID access, and communicates via MQTT.
-- **Scalability:** Easily expandable for larger warehouses.
-- **Cost-Effective & Centralized:** Offers a robust, affordable solution for warehouse safety.
+Our system combines environmental monitoring with access control and real-time data visualization. Using a master-slave architecture, slave ESP32 modules collect sensor data (temperature, humidity, gas, and motion), while the master ESP32 processes the data, manages RFID-based access, and communicates with the cloud via MQTT. This design ensures scalability, centralized control, and cost-effectiveness, providing a robust framework for warehouse safety.
 
 ## Key Features ✅
 
-- **Hybrid Master-Slave Architecture:** Master ESP32 acts as a Wi-Fi access point and cloud-connected node.
-- **Integrated Monitoring:** Combines environmental sensors and security features (motion detection and RFID access).
-- **Cloud Connectivity:** Uses MQTT for lightweight, real-time data transmission.
+- **Hybrid Master-Slave Architecture:** Master ESP32 acts as both a Wi-Fi access point and a cloud-connected node.
+- **Integrated Monitoring:** Combines environmental sensors and security features (motion detection and RFID access control).
+- **Cloud Connectivity & Real-Time Visualization:** Uses MQTT for lightweight, real-time data transmission and remote monitoring via a GUI.
 - **Modular & Scalable Design:** Easily expandable with additional slave devices and sensors.
-- **Efficient Communication:** Uses I2C for OLED display and SPI for the RFID module.
+- **Efficient Communication:** Utilizes I2C for the OLED display and SPI for the RFID module.
 
 ## Circuit Components 🔌
 
-### Slave Circuit Components (Infographics)
+### Slave Circuit Components
 
 <div align="center">
 
 <table style="width:80%; border-collapse: collapse;">
   <tr>
     <th style="border: 1px solid #ddd; padding: 8px; text-align: center; background-color: #f2f2f2;">Component</th>
-    <th style="border: 1px solid #ddd; padding: 8px; text-align: center; background-color: #f2f2f2;">Infographic</th>
+    <th style="border: 1px solid #ddd; padding: 8px; text-align: center; background-color: #f2f2f2;">Quantity</th>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">ESP32 WROOM 32</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
-      ![ESP32](https://via.placeholder.com/50?text=ESP32)
-    </td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">DHT22 Sensor</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
-      ![DHT22](https://via.placeholder.com/50?text=DHT22)
-    </td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">MQ135 Sensor</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
-      ![MQ135](https://via.placeholder.com/50?text=MQ135)
-    </td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">HC-SR501 PIR Sensor</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
-      ![PIR](https://via.placeholder.com/50?text=PIR)
-    </td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
   </tr>
 </table>
 </div>
 
-### Master Circuit Components (Infographics)
+### Master Circuit Components
 
 <div align="center">
 
 <table style="width:80%; border-collapse: collapse; margin-top: 15px;">
   <tr>
     <th style="border: 1px solid #ddd; padding: 8px; text-align: center; background-color: #f2f2f2;">Component</th>
-    <th style="border: 1px solid #ddd; padding: 8px; text-align: center; background-color: #f2f2f2;">Infographic</th>
+    <th style="border: 1px solid #ddd; padding: 8px; text-align: center; background-color: #f2f2f2;">Quantity</th>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">ESP32 WROOM 32</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
-      ![ESP32](https://via.placeholder.com/50?text=ESP32)
-    </td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">RFID Module</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
-      ![RFID](https://via.placeholder.com/50?text=RFID)
-    </td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">OLED Display</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
-      ![OLED](https://via.placeholder.com/50?text=OLED)
-    </td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">Buzzer</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
-      ![Buzzer](https://via.placeholder.com/50?text=Buzzer)
-    </td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">LED</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
-      ![LED](https://via.placeholder.com/50?text=LED)
-    </td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
   </tr>
   <tr>
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">220Ω Resistor</td>
-    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">
-      ![Resistor](https://via.placeholder.com/50?text=Resistor)
-    </td>
+    <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
   </tr>
 </table>
 </div>
