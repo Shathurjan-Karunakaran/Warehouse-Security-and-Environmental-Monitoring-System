@@ -1,10 +1,10 @@
 # Warehouse Security and Environmental Monitoring System 🚀
 
-## 1. Introduction 📘
+## Introduction 📘
 
 The Warehouse Security and Environmental Monitoring System integrates security and environmental monitoring using a master-slave ESP32 architecture. It tracks temperature, humidity, gas levels, and motion while providing real-time alerts and cloud connectivity. This scalable IoT solution is designed to improve warehouse safety and operational efficiency.
 
-## 2. Objective 🎯
+## Objective 🎯
 
 - Prevent unauthorized access with motion and access sensors.
 - Monitor temperature, humidity, gas, and smoke levels.
@@ -12,15 +12,15 @@ The Warehouse Security and Environmental Monitoring System integrates security a
 - Enable remote monitoring via cloud integration.
 - Ensure efficient data processing using ESP32 architecture.
 
-## 3. Problem Statement ⚠️
+## Problem Statement ⚠️
 
 Warehouses are critical supply chain hubs that store valuable goods. However, they face risks from environmental fluctuations (temperature, humidity, air quality) and unauthorized access—leading to potential gas leaks, fire hazards, and other safety issues. Existing monitoring systems are often expensive, inefficient, or lack real-time, centralized monitoring. This makes manual supervision error-prone and costly. An affordable, reliable, and integrated solution is therefore essential.
 
-## 4. Solution 💡
+## Solution 💡
 
 Our system combines environmental monitoring with access control and real-time data visualization. Using a master-slave architecture, slave ESP32 modules collect sensor data (temperature, humidity, gas, and motion), while the master ESP32 processes the data, manages RFID-based access, and communicates with the cloud via MQTT. This design ensures scalability, centralized control, and cost-effectiveness, providing a robust framework for warehouse safety.
 
-## 5. Key Features ✅
+## Key Features ✅
 
 - **Hybrid Master-Slave Architecture:** Master ESP32 acts as both a Wi-Fi access point and a cloud-connected node.
 - **Integrated Monitoring:** Combines environmental sensors and security features (motion detection and RFID access control).
@@ -28,7 +28,7 @@ Our system combines environmental monitoring with access control and real-time d
 - **Modular & Scalable Design:** Easily expandable with additional slave devices and sensors.
 - **Efficient Communication:** Utilizes I2C for the OLED display and SPI for the RFID module.
 
-## 6. Circuit Components 🔌
+## Circuit Components 🔌
 
 ### Slave Circuit Components
 
@@ -94,7 +94,7 @@ Our system combines environmental monitoring with access control and real-time d
 </table>
 </div>
 
-## 7. Communication Protocols 📡
+## Communication Protocols 📡
 
 <div align="center">
 
@@ -107,7 +107,7 @@ Our system combines environmental monitoring with access control and real-time d
 
 </div>
 
-## 8. Circuit Diagram and Protocols 🔍
+## Circuit Diagram and Protocols 🔍
 
 Below are the circuit diagrams for both the slave and master circuits along with the communication protocols used.
 
@@ -119,7 +119,7 @@ Below are the circuit diagrams for both the slave and master circuits along with
 ![Master Circuit Diagram](https://via.placeholder.com/400x300?text=Master+Circuit+Diagram)
 </div>
 
-## 9. Simulation 🖥️
+## Simulation 🖥️
 
 A simulation of the system setup has been performed to verify sensor readings and communication flows.
 
@@ -128,7 +128,7 @@ A simulation of the system setup has been performed to verify sensor readings an
 ![Simulation](https://via.placeholder.com/400x300?text=Simulation)
 </div>
 
-## 10. Phase One of Execution 🏁
+## Phase One of Execution 🏁
 
 Phase One involves the initial hardware setup, sensor calibration, and establishing the master-slave communication link.
 
@@ -137,12 +137,12 @@ Phase One involves the initial hardware setup, sensor calibration, and establish
 ![Phase One Execution](https://via.placeholder.com/400x300?text=Phase+One+Execution)
 </div>
 
-## 11. Software Integration 💻
+## Software Integration 💻
 
 - **Programming Language:** C++
 - **Mobile/Cloud Application:** Thingsboard (for real-time visualization and remote monitoring)
 
-## 12. Budget 💰
+## Budget 💰
 
 <div align="center">
 
@@ -163,7 +163,7 @@ Phase One involves the initial hardware setup, sensor calibration, and establish
 
 </div>
 
-## 13. Timeline ⏱️
+## Timeline ⏱️
 
 ### Timeline Table
 
@@ -196,5 +196,5 @@ flowchart TD
   G --> H["Final Evaluation Preparation (Week 14)"]
   H --> I["Final Evaluation (Week 15)"]
 
-  classDef timeline fill:#e0f7fa,stroke:#00796b,stroke-width:2px;
+  classDef timeline fill:#B3E5FC,stroke:#00796b,stroke-width:2px, color:#000, rx:15, ry:15;
   class A,B,C,D,E,F,G,H,I timeline;
