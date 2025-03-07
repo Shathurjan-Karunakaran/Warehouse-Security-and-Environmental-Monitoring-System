@@ -1,4 +1,3 @@
-![Slave 1](https://github.com/user-attachments/assets/f55ad25d-986f-45c1-a9a1-64240df1b1a3)[Project Website](https://warehousesecuritymonitor.my.canva.site/)
 
 # Warehouse Security and Environmental Monitoring System 🚀
 
