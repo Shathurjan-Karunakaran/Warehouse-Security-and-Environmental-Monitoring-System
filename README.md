@@ -32,7 +32,9 @@ Our system combines environmental monitoring with access control and real-time d
 
 ### Slave Circuit Components
 
-<table style="width:100%; border-collapse: collapse;">
+<div align="center">
+
+<table style="width:80%; border-collapse: collapse;">
   <tr>
     <th style="border: 1px solid #ddd; padding: 8px; text-align: center; background-color: #f2f2f2;">Component</th>
     <th style="border: 1px solid #ddd; padding: 8px; text-align: center; background-color: #f2f2f2;">Quantity</th>
@@ -54,10 +56,13 @@ Our system combines environmental monitoring with access control and real-time d
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">1</td>
   </tr>
 </table>
+</div>
 
 ### Master Circuit Components
 
-<table style="width:100%; border-collapse: collapse; margin-top: 15px;">
+<div align="center">
+
+<table style="width:80%; border-collapse: collapse; margin-top: 15px;">
   <tr>
     <th style="border: 1px solid #ddd; padding: 8px; text-align: center; background-color: #f2f2f2;">Component</th>
     <th style="border: 1px solid #ddd; padding: 8px; text-align: center; background-color: #f2f2f2;">Quantity</th>
@@ -87,10 +92,11 @@ Our system combines environmental monitoring with access control and real-time d
     <td style="border: 1px solid #ddd; padding: 8px; text-align: center;">3</td>
   </tr>
 </table>
+</div>
 
 ## 7. Communication Protocols 📡
 
-The following table summarizes the communication protocols used in the system, along with their descriptions and advantages.
+<div align="center">
 
 | **Protocol** | **Description**                                    | **Advantages**                                                  |
 |:------------:|:--------------------------------------------------:|:---------------------------------------------------------------:|
@@ -99,29 +105,37 @@ The following table summarizes the communication protocols used in the system, a
 | Wi-Fi       | Communication between master and slave nodes       | Reliable for short-range, real-time monitoring within 40-60 m    |
 | MQTT        | Cloud data transfer                                | Lightweight, secure, and enables real-time updates               |
 
+</div>
+
 ## 8. Circuit Diagram and Protocols 🔍
 
 Below are the circuit diagrams for both the slave and master circuits along with the communication protocols used.
 
+<div align="center">
 <!-- Random image for Slave Circuit Diagram -->
 ![Slave Circuit Diagram](https://via.placeholder.com/400x300?text=Slave+Circuit+Diagram)
 
 <!-- Random image for Master Circuit Diagram -->
 ![Master Circuit Diagram](https://via.placeholder.com/400x300?text=Master+Circuit+Diagram)
+</div>
 
 ## 9. Simulation 🖥️
 
 A simulation of the system setup has been performed to verify sensor readings and communication flows.
 
+<div align="center">
 <!-- Random image for Simulation -->
 ![Simulation](https://via.placeholder.com/400x300?text=Simulation)
+</div>
 
 ## 10. Phase One of Execution 🏁
 
 Phase One involves the initial hardware setup, sensor calibration, and establishing the master-slave communication link.
 
+<div align="center">
 <!-- Random image for Phase One of Execution -->
 ![Phase One Execution](https://via.placeholder.com/400x300?text=Phase+One+Execution)
+</div>
 
 ## 11. Software Integration 💻
 
@@ -130,7 +144,7 @@ Phase One involves the initial hardware setup, sensor calibration, and establish
 
 ## 12. Budget 💰
 
-The following table outlines the estimated budget for the components (prices in LKR):
+<div align="center">
 
 | **Component**                          | **Quantity** | **Price (LKR)**          |
 |:--------------------------------------:|:------------:|:------------------------:|
@@ -147,11 +161,13 @@ The following table outlines the estimated budget for the components (prices in 
 | Breadboard                             |      2       | 350 × 2 = **700**       |
 | **TOTAL**                              |      -       | **Rs. 6820**           |
 
+</div>
+
 ## 13. Timeline ⏱️
 
-Below is the project timeline represented as both a table and a flowchart.
-
 ### Timeline Table
+
+<div align="center">
 
 | **Task**                       | **Timeline**   |
 |:------------------------------:|:--------------:|
@@ -165,18 +181,20 @@ Below is the project timeline represented as both a table and a flowchart.
 | Final Evaluation Preparation   | Week 14       |
 | Final Evaluation               | Week 15        |
 
+</div>
+
 ### Timeline Flowchart
 
 ```mermaid
 flowchart TD
-  A[Project Proposal (Week 4)] --> B[Hardware Setup (Weeks 5-6)]
-  B --> C[Mid-Evaluation Preparation (Week 7)]
-  C --> D[Mid-Evaluation (Week 9)]
-  D --> E[Full System Integration (Weeks 10-12)]
-  E --> F[Software Development (Weeks 13-15)]
-  F --> G[Testing & Refining (Weeks 14-15)]
-  G --> H[Final Evaluation Preparation (Week 14)]
-  H --> I[Final Evaluation (Week 15)]
+  A["Project Proposal (Week 4)"] --> B["Hardware Setup (Weeks 5-6)"]
+  B --> C["Mid-Evaluation Preparation (Week 7)"]
+  C --> D["Mid-Evaluation (Week 9)"]
+  D --> E["Full System Integration (Weeks 10-12)"]
+  E --> F["Software Development (Weeks 13-15)"]
+  F --> G["Testing & Refining (Weeks 14-15)"]
+  G --> H["Final Evaluation Preparation (Week 14)"]
+  H --> I["Final Evaluation (Week 15)"]
 
   classDef timeline fill:#e0f7fa,stroke:#00796b,stroke-width:2px;
   class A,B,C,D,E,F,G,H,I timeline;
