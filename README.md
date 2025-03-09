@@ -143,7 +143,7 @@ Phase One involves the initial hardware setup, sensor calibration, and establish
 
 ## Software Integration 💻
 
-- **Programming Language:** C++
+- **Programming Language:** C
 - **Mobile/Cloud Application:** Thingsboard (for real-time visualization and remote monitoring)
 
 ## Budget 💰
